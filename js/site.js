@@ -93,10 +93,10 @@ diplomatic_crisis = {
     age: 18,
     citizenship: "American", 
     offence: "vandalism",
-    year: 1994,
+    offence_year: 1994,
     sentence: {
-        imprisonment: "4 months",
-        fine: 3500,
+        imprisonment_months: 4.0,
+        fine_singapore_dollars: 3500,
         cane_strokes: 6,
     },
     response: function stakeholders(){
